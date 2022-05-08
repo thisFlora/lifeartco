@@ -1,0 +1,34 @@
+:root {
+    --primary: #cab500;
+    --white: #ffffff;
+    --text: #c1402d;
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+.btn--primary--solid {
+    background-color: var(--primary);
+    color: var(--text);
+    border: none;
+}
+
+.btn--small {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.btn--medium {
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 30px;
+}
