@@ -1,6 +1,5 @@
 :root {
-    --primary: #cab500;
-    --white: #ffffff;
+    --bg: #cab500;
     --text: #c1402d;
 }
 
@@ -15,8 +14,8 @@
     transform: translateY(-3px);
 }
 
-.btn--primary--solid {
-    background-color: var(--primary);
+.btn--bg--solid {
+    background-color: var(--bg);
     color: var(--text);
     border: none;
 }
