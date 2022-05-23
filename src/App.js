@@ -1,15 +1,18 @@
-import AboutUs from './components/AboutUs';
-import Button from './components/Button';
-import CardListContainer from './components/CardListContainer';
-import Footer from './components/Footer';
+import React from "react";
+import AboutUs from "./components/AboutUs";
+import CompanyElementsListContainer from "./components/CompanyElementsListContainer";
+import ContactForm from "./components/ContactForm";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <>
-    <AboutUs/>
-    <Footer/>
+      <AboutUs />
+      <CompanyElementsListContainer/>
+      <ContactForm />
+      <Footer />
     </>
   );
-}
+};
 
 export default App;
