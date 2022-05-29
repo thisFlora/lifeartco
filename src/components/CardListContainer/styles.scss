@@ -1,0 +1,16 @@
+// .body {
+//   background: #fff;
+//   font-family: sans-serif;
+// }
+
+.container {
+  width: 75%;
+  margin: 50px auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
