@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUmbrella } from "@fortawesome/free-solid-svg-icons";
-import "./styles.css";
+import "./styles.scss";
 
 const Card = ({ service }) => {
   return (

@@ -1,16 +1,20 @@
+$bg: #cab500;
+$text: #c1402d;
+
 .btn {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   cursor: pointer;
   transition: transform 0.3s ease;
-}
-.btn:hover {
-  transform: translateY(-3px);
+
+  &:hover {
+    transform: translateY(-3px);
+  }
 }
 
 .btn--bg--solid {
-  background-color: #cab500;
-  color: #c1402d;
+  background-color: $bg;
+  color: $text;
   border: none;
 }
 
@@ -25,5 +29,3 @@
   font-size: 20px;
   border-radius: 30px;
 }
-
-/*# sourceMappingURL=styles.css.map */

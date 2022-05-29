@@ -1,3 +1,9 @@
+$bg-card-color: #374248;
+$border-card-color: #374248;
+$bg-card-icon: #cab500;
+$bg-card-icon-icon: #fff;
+$text-color: #c7bbad;
+
 .heading {
   text-align: center;
   font-size: 30px;
@@ -6,40 +12,53 @@
 
 .card {
   width: 20%;
-  background: #374248;
-  border: 1px solid #374248;
+  background: $bg-card-color;
+  border: 1px solid $border-card-color;
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 50px;
   transition: 0.3s;
-}
-.card h1 {
-  color: #c7bbad;
-}
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+
+  h1 {
+    color: $text-color;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+  }
 }
 
 .card-header {
   text-align: center;
   padding: 30px 20px;
-  background: #374248;
+  background: $bg-card-color;
 }
 
 .card-body {
   padding: 0px 20px 20px 20px;
   text-align: center;
   font-size: 18px;
-}
-.card-body p {
-  color: #c7bbad;
+
+  p {
+    color: $text-color;
+  }
+
+//   .btn {
+//     display: block;
+//     color: #fff;
+//     text-align: center;
+//     background: linear-gradient(to right, #ff416c, #ff4b2b);
+//     margin-top: 30px;
+//     text-decoration: none;
+//     padding: 10px 5px;
+//   }
 }
 
 .card-icons {
   display: inline-block;
-  background-color: #cab500;
-  color: #fff;
+  background-color: $bg-card-icon;
+  color: $bg-card-icon-icon;
   border-radius: 60px;
   padding: 1.5em 1.5em;
   margin-bottom: 30px;
@@ -54,6 +73,7 @@
     width: 40%;
   }
 }
+
 @media screen and (max-width: 620px) {
   .container {
     width: 100%;
@@ -68,5 +88,3 @@
     width: 80%;
   }
 }
-
-/*# sourceMappingURL=styles.css.map */

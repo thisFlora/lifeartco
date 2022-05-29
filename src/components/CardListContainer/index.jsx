@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import CardList from "../CardList";
-import "./styles.css";
+import "./styles.scss";
 
 const ServicesList = [
   {

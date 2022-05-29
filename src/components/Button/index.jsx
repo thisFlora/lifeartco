@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import "./styles.scss";
 
 const STYLES = ["btn--bg--solid", "btn--bg--outline"];
 

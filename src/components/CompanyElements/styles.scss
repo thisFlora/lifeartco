@@ -1,5 +1,14 @@
+// body {
+//   min-height: 100vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   background-color: #fff;
+// }
+
 .company-elemets-section {
-  background: url(https://i.ibb.co/y5SBXFy/people-working-in-office.jpg) no-repeat right;
+  background: url(https://i.ibb.co/y5SBXFy/people-working-in-office.jpg)
+    no-repeat right;
   background-size: 55%;
   background-color: #fff;
   overflow: hidden;
@@ -11,10 +20,11 @@
   float: left;
   background-color: #fff;
   padding: 150px;
-}
-.inner-container h1 {
-  margin-bottom: 30px;
-  color: #374248;
+
+  h1 {
+    margin-bottom: 30px;
+    color: #374248;
+  }
 }
 
 .text {
@@ -30,24 +40,22 @@
     padding: 80px;
   }
 }
+
 @media screen and (max-width: 1000px) {
   .company-elemets-section {
     background-size: 100%;
     padding: 100px 40px;
   }
-
   .inner-container {
     width: 100%;
   }
 }
+
 @media screen and (max-width: 600px) {
   .company-elemets-section {
     padding: 0;
   }
-
   .inner-container {
     padding: 60px;
   }
 }
-
-/*# sourceMappingURL=styles.css.map */
