@@ -28,33 +28,34 @@ const ContactForm = () => {
 
   return (
     <div class="background">
-      <form class="form" ref={form} onSubmit={sendEmail}>
-        <input
-          class="name formEntry"
-          type="text"
-          name="user_name"
-          placeholder="Name"
-        />
-        <input
-          class="phone formEntry"
-          type="phone"
-          name="user_phone"
-          placeholder="Phone"
-        />
-        <input
-          class="email formEntry"
-          type="email"
-          name="user_email"
-          placeholder="Email"
-        />
-        <textarea
-          class="message formEntry"
-          name="message"
-          placeholder="Message"
-        />
-        <input class="submit formEntry" type="submit" value="Send Message" />
-        {/* <Button onClick={() => {alert('Me clickeaste!')}} type="submit">Send Message</Button> */}
-      </form>
+      <h1>Contact Form</h1>
+        <form class="form" ref={form} onSubmit={sendEmail}>
+          <input
+            class="name formEntry"
+            type="text"
+            name="user_name"
+            placeholder="Name"
+          />
+          <input
+            class="phone formEntry"
+            type="phone"
+            name="user_phone"
+            placeholder="Phone"
+          />
+          <input
+            class="email formEntry"
+            type="email"
+            name="user_email"
+            placeholder="Email"
+          />
+          <textarea
+            class="message formEntry"
+            name="message"
+            placeholder="Message"
+          />
+          <input class="submit formEntry" type="submit" value="Send Message" />
+          {/* <Button onClick={() => {alert('Me clickeaste!')}} type="submit">Send Message</Button> */}
+        </form>
     </div>
   );
 };

@@ -32,6 +32,10 @@ $text-hover-color: #cab500;
     color: $text-color;
   }
 
+  h3 {
+    margin-bottom: 10px;
+  }
+
   p {
     font-size: 16px;
     text-align: justify;
@@ -49,7 +53,7 @@ $text-hover-color: #cab500;
 
 .border1 {
   height: 3px;
-  width: 40px;
+  width: 50px;
   background: $bg-footer-line-color;
   color: $text-hover-color;
   border: 0px;
@@ -87,6 +91,8 @@ ul {
   color: $text-color;
   text-align: left;
   font-size: 20px;
+  margin: 10px 0;
+
 
   a {
     text-decoration: none;
@@ -111,14 +117,43 @@ ul {
   text-align: center;
 }
 
-@media screen and (max-width: 1275px) {
+@media screen and (max-width: 1200px) {
   .footer-items {
     width: 50%;
   }
 }
 
-@media screen and (max-width: 660px) {
-  .footer-items {
+@media screen and (max-width: 768px) {  
+  .inner-footer {
+    width: 65%;
+    margin: auto;
+    padding: 30px 10px;
+
+  }
+
+  .footer-items, .border1 {
     width: 100%;
+    text-align: center;
+
+    .footer-logo {
+      width: 100px;
+      height: 100px;
+      margin: 0px;
+    }
+
+    h3 {
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+
+    li {
+      font-size: 10px;
+    }
+
+    .social-media {
+      font-size: 15px;
+      text-align: center;
+      margin: 10px 0;
+    }
   }
 }

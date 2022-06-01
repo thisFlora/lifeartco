@@ -21,7 +21,6 @@ const Footer = () => {
             title="Life Art Co."
             loading="lazy"
           />
-          <p>Impulsamos Desarrollo Humano</p>
         </div>
         <div class="footer-items">
           <h3>Menú</h3>

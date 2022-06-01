@@ -1,16 +1,21 @@
-// .body {
-//   background: #fff;
-//   font-family: sans-serif;
-// }
-
 .container {
-  width: 75%;
+  width: 60%;
   margin: 50px auto;
 }
 
 .row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-flow: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    width: 75%;
+  }
 }
