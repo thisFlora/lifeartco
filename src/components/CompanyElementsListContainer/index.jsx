@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import CompanyElementsList from "../CompanyElementsList";
-import "./styles.css";
+import "./styles.scss";
 
 const ElementsList = [
   {
@@ -39,8 +39,8 @@ const CompanyElementsListContainer = () => {
   }, []);
 
   return (
-    <div class="body container">
-      <div class="row">
+    <div class="container2">
+      <div class="row2">
         <CompanyElementsList elements={elements} />
       </div>
     </div>

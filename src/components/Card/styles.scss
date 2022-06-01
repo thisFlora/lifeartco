@@ -11,7 +11,6 @@ $text-color: #c7bbad;
 }
 
 .card {
-  width: 20%;
   background: $bg-card-color;
   border: 1px solid $border-card-color;
   margin-left: 25px;
@@ -19,7 +18,7 @@ $text-color: #c7bbad;
   margin-bottom: 50px;
   transition: 0.3s;
 
-  h1 {
+  .titulo {
     color: $text-color;
   }
 
@@ -43,16 +42,6 @@ $text-color: #c7bbad;
   p {
     color: $text-color;
   }
-
-//   .btn {
-//     display: block;
-//     color: #fff;
-//     text-align: center;
-//     background: linear-gradient(to right, #ff416c, #ff4b2b);
-//     margin-top: 30px;
-//     text-decoration: none;
-//     padding: 10px 5px;
-//   }
 }
 
 .card-icons {
@@ -68,13 +57,13 @@ $text-color: #c7bbad;
   height: 25px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 992px) {
   .card {
     width: 40%;
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 768px) {
   .container {
     width: 100%;
   }
@@ -86,5 +75,13 @@ $text-color: #c7bbad;
 
   .card {
     width: 80%;
+  }
+
+  .card-icons {
+    padding: 1em 1em;
+  }
+
+  .icon {
+    height: 15px;
   }
 }
