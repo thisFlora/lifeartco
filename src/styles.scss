@@ -1,13 +1,19 @@
+@import "components/NavBar/NavBar.scss";
+@import "components/Carousel/Carousel.scss";
+@import "components/Companies/Companies.scss";
+
 * {
      margin: 0;
+     padding: 0;
+     box-sizing: border-box;
 }
 
 html,
 body,
-#root {
+#root{
      height: 100vh;
-     background-color: #374248;
 }
+
 
 #root{
      display:flex;
@@ -18,38 +24,6 @@ main {
      flex-grow: 1;
 }
 
-.navbar {
-     display: flex;
-     flex-wrap: wrap;
-     align-items: center;
-     justify-content: space-between;
-     background-color: #f5f5f5;
-     padding: 20px;
-     font-family: 'Cormorant Garamond', serif;
-     font-size: 20px;
-     color: RGB(202, 181, 0);
-     background-color: #374248;
-}
-
-.navbar a {
-     text-decoration: none;
-     color: inherit;
-}
-
-.logo  {
-     margin-right: 50px;
-}
-
-.list {
-     list-style: none;
-     display: flex;
-     gap: 25px;
-}
-
-#toggler,
-.navbar label {
-     display: none;
-}
 
 @media screen and (max-width: 600px){
      .menu {
@@ -62,15 +36,28 @@ main {
           text-align: center;
           padding: 20px;
      }
-     .navbar label {
-          display: inline-flex;
-          align-items: center;
-          cursor: pointer;
-     }
+     .navbar
+     {
+          padding: 20px;
+          label {
+               display: inline-flex;
+               align-items: center;
+               cursor: pointer;
+          }
+     } 
      #toggler:checked ~  .menu {
           max-height: 100%;
      }
      .menu li:hover {
           background-color: #4c5b63;
      }
+     .nav-logo {
+          display: none;
+     }
+}
+
+.home-container{
+     width: 100%;
+     height: 85vh;
+     
 }
