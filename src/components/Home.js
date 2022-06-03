@@ -10,8 +10,8 @@ import "swiper/css/navigation";
 import "../styles.scss";
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from "swiper";
-
+import SwiperCore, { Autoplay, Pagination, Navigation } from 'swiper';
+SwiperCore.use([Autoplay]);
 
 const Home = () => {
      return (
