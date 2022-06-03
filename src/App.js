@@ -1,8 +1,8 @@
 import React from "react";
-import AboutUs from "./components/AboutUs";
-import CompanyElementsListContainer from "./components/CompanyElementsListContainer";
-import ContactForm from "./components/ContactForm";
-import Footer from "./components/Footer";
+import AboutUs from "./components/AboutUs/AboutUs";
+import CompanyElementsListContainer from "./components/CompanyElementsListContainer/CompanyElementsListContainer";
+import ContactForm from "./components/ContactForm/ContactForm";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
