@@ -1,0 +1,87 @@
+$bg-card-color: #374248;
+$border-card-color: #374248;
+$bg-card-icon: #cab500;
+$bg-card-icon-icon: #fff;
+$text-color: #c7bbad;
+
+.heading {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.card {
+  background: $bg-card-color;
+  border: 1px solid $border-card-color;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  transition: 0.3s;
+
+  .titulo {
+    color: $text-color;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.card-header {
+  text-align: center;
+  padding: 30px 20px;
+  background: $bg-card-color;
+}
+
+.card-body {
+  padding: 0px 20px 20px 20px;
+  text-align: center;
+  font-size: 18px;
+
+  p {
+    color: $text-color;
+  }
+}
+
+.card-icons {
+  display: inline-block;
+  background-color: $bg-card-icon;
+  color: $bg-card-icon-icon;
+  border-radius: 60px;
+  padding: 1.5em 1.5em;
+  margin-bottom: 30px;
+}
+
+.icon {
+  height: 25px;
+}
+
+@media screen and (max-width: 992px) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  .heading {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .card-icons {
+    padding: 1em 1em;
+  }
+
+  .icon {
+    height: 15px;
+  }
+}
