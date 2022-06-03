@@ -1,3 +1,6 @@
+@import "components/NavBar/NavBar.scss";
+@import "components/Carousel/Carousel.scss";
+@import "components/Companies/Companies.scss";
 @import "components/AboutUs/AboutUs";
 @import "components/Button/Button";
 @import "components/Card/Card";
@@ -7,36 +10,89 @@
 @import "components/Footer/Footer";
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
 }
 
+html,
+body,
+#root {
+     height: 100vh;
+}
+
+#root {
+     display: flex;
+     flex-direction: column;
+}
+
+
 h1 {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 50px;
+     font-family: "Cormorant Garamond", serif;
+     font-size: 50px;
 }
 
 h2 {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 30px;
+     font-family: "Cormorant Garamond", serif;
+     font-size: 30px;
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+     font-family: "Open Sans", sans-serif;
+     font-size: 15px;
 }
+
 
 @media screen and (max-width: 620px) {
-  h1 {
-    font-size: 35px;
-  }
+     h1 {
+          font-size: 35px;
+     }
 
-  h2 {
-    font-size: 25px;
-  }
+     h2 {
+          font-size: 25px;
+     }
 
-  p {
-    font-size: 15px;
-  }
+     p {
+          font-size: 15px;
+     }
+
+     .menu {
+          width: 100%;
+          max-height: 0;
+          overflow: hidden;
+     }
+
+     .list {
+          flex-direction: column;
+          text-align: center;
+          padding: 20px;
+     }
+
+     .navbar {
+          padding: 20px;
+
+          label {
+               display: inline-flex;
+               align-items: center;
+               cursor: pointer;
+          }
+     }
+
+     #toggler:checked~.menu {
+          max-height: 100%;
+     }
+
+     .menu li:hover {
+          background-color: #4c5b63;
+     }
+
+     .nav-logo {
+          display: none;
+     }
 }
+
+.home-container {
+     width: 100%;
+     height: 85vh;
+}
+
