@@ -1,0 +1,79 @@
+$bg-color: #fff;
+$bg-size: 55%;
+$text-color: #374248;
+$title-color: #374248;
+
+.about-section {
+  background: url(https://i.ibb.co/y5SBXFy/people-working-in-office.jpg)
+    no-repeat right;
+  background-size: $bg-size;
+  background-color: $bg-color;
+  overflow: hidden;
+}
+
+.inner-container {
+  width: 55%;
+  float: left;
+  background-color: $bg-color;
+  padding: 100px;
+
+  h1 {
+    margin-bottom: 30px;
+    color: $title-color;
+  }
+
+  p {
+    color: $text-color;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+  }
+}
+
+.what-we-do-section {
+  text-align: center;
+  line-height: 30px;
+  padding: 100px 100px 50px 100px;
+  color: $text-color;
+
+  h1 {
+    margin-bottom: 30px;
+    color: $title-color;
+  }
+
+  p {
+    color: $text-color;
+    line-height: 30px;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .inner-container {
+    padding: 80px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .about-section {
+    background-size: 100%;
+    padding: 100px 40px;
+  }
+  .inner-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-section {
+    padding: 0;
+  }
+  .inner-container, .what-we-do-section {
+    padding: 50px;
+  }
+
+  .inner-container p {
+    padding-bottom: 30px;
+  }
+}
