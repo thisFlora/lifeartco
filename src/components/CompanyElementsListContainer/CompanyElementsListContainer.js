@@ -10,19 +10,19 @@ const ElementsList = [
     img: image1,
     name: "Misión",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.",
+      "Acompañar e impulsar la transformación hacia modelos organizativos que generen una cultura de bienestar, innovación y desarrollo, asegurando la sostenibilidad de las organizaciones.",
   },
   {
     img: image2,
     name: "Visión",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.",
+      "Ser elegidos, reconocidos y compartidos gracias a nuestro modelo de consultoría empático, transformador y efectivo.",
   },
   {
     img: image3,
     name: "Valores",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.",
+      "Apredizaje, Transformación y Armonía",
   },
 ];
 

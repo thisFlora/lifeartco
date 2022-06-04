@@ -1,10 +1,13 @@
 import  { React, useEffect, useState }from "react";
 import CarouselDetail from './CarouselDetail.js';
+import image1 from "../../assets/LUCHO.jpeg";
+import image2 from "../../assets/OCTAVIO.jpeg";
+import image3 from "../../assets/SABRINA.jpeg";
 
 const TeamList = [
      {
           id: 1,
-          img: 'https://media.istockphoto.com/photos/he-brings-something-valuable-and-unique-to-the-team-picture-id1008372000?k=20&m=1008372000&s=612x612&w=0&h=ONlfGU2xhBgHpiVwbiCVTJ9aK5chj3Inzqk05Wj6Hs0=',
+          img: image1,
           name:'Luciano',
           job: 'Lorem',
           description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
@@ -15,7 +18,7 @@ const TeamList = [
      },
      {
           id: 2,
-          img: 'https://media.istockphoto.com/photos/overjoyed-pretty-asian-woman-look-at-camera-with-sincere-laughter-picture-id1311084168?k=20&m=1311084168&s=612x612&w=0&h=gclZozEGfK0eSUhKEE7RrUq8B5qDLvQTPrb0Vc-vEyI=',
+          img: image2,
           name:'Octavio',
           job: 'Lorem',
           description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
@@ -25,7 +28,7 @@ const TeamList = [
      },
      {
           id: 3,
-          img: 'https://media.istockphoto.com/photos/view-of-smiling-woman-in-headphones-talk-on-video-call-picture-id1304943786?k=20&m=1304943786&s=612x612&w=0&h=WL7mreJhDX5Wz-iUzCqF9__yj5wcwr1d_4g7-kpdlA4=',
+          img: image3,
           name:'Sabrina',
           job: 'Lorem',
           description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',

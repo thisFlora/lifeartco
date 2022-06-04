@@ -18,7 +18,7 @@ const CarouselItem = ({ team }) => {
                     <div className="card-body">
                          <h3 className="card-title">{team.name}</h3>
                          <div className="text-left">
-                         <span className="period">• </span><span className="card-job">{team.job}</span>
+                         {/* <span className="period">• </span><span className="card-job">{team.job}</span> */}
                          <p className="card-text">{team.description}</p>
                          </div>
                          <div className="card-social">
