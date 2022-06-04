@@ -1,17 +1,17 @@
 import  { React, useEffect, useState }from "react";
 import CarouselDetail from './CarouselDetail.js';
-import image1 from "../../assets/LUCHO.jpeg";
-import image2 from "../../assets/OCTAVIO.jpeg";
-import image3 from "../../assets/SABRINA.jpeg";
+import image1 from "../../assets/lucho.jpeg";
+import image2 from "../../assets/octavio.jpeg";
+import image3 from "../../assets/sabrina.jpeg";
 
 const TeamList = [
      {
           id: 1,
           img: image1,
           name:'Luciano',
-          job: 'Lorem',
+          job: 'Co-Founder',
           description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-          facebook: 'https://www.facebook.com/',
+          linkedIn: 'https://www.linkedin.com/in/luciano-smidt-langer/',
           twitter: 'https://www.twitter.com/',
           instagram: 'https://www.instagram.com/'
      
@@ -20,9 +20,9 @@ const TeamList = [
           id: 2,
           img: image2,
           name:'Octavio',
-          job: 'Lorem',
+          job: 'Co-Founder',
           description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-          facebook: 'https://www.facebook.com/',
+          linkedIn: 'https://www.linkedin.com/in/octavio-miranda-7491a3a7/',
           twitter: 'https://www.twitter.com/',
           instagram: 'https://www.instagram.com/'
      },
@@ -30,9 +30,9 @@ const TeamList = [
           id: 3,
           img: image3,
           name:'Sabrina',
-          job: 'Lorem',
+          job: 'Co-Founder',
           description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-          facebook: 'https://www.facebook.com/',
+          linkedIn: 'https://www.linkedin.com/in/sabrina-farah-rabbat-9a1785183/',
           twitter: 'https://www.twitter.com/',
           instagram: 'https://www.instagram.com/'
      }

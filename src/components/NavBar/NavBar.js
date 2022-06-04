@@ -19,22 +19,22 @@ function NavBar() {
                <ul className="list">
                     <li>
                          <NavLink to="/" className="nav-link">
-                              Home
+                              Inicio
                          </NavLink>
                     </li>
                     <li>
                          <NavLink to="/" className="nav-link">
-                              About us
+                              Sobre Nosotros
                          </NavLink>
                     </li>
                     <li>
                          <NavLink to="/" className="nav-link">
-                              What we do
+                              Nuestros Servicios
                          </NavLink>
                     </li>
                     <li>
                          <NavLink to="/" className="nav-link">
-                              Contact us
+                              Contacto
                          </NavLink>
                     </li>
                </ul>

@@ -25,12 +25,8 @@ const AboutUs = () => {
       </div>
       <div className="what-we-do-section">
         <h1>Nuestros Servicios</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-          velit ducimus, enim inventore earum, eligendi nostrum pariatur
-          necessitatibus eius dicta a voluptates sit deleniti autem error eos
-          totam nisi neque voluptates sit deleniti autem error eos totam nisi
-          neque.
+        <p className="text-center">
+          Ofrecemos a nuestros clientes un servicio personalizado y de excelencia, apoyado en nuestra experiencia y capacidad técnica adquirida.
         </p>
       </div>
       <CardListContainer />

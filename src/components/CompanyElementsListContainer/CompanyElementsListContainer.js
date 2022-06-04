@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import CompanyElementsList from "../CompanyElementsList/CompanyElementsList";
-import image1 from "../../images/Mision.jpg";
-import image2 from "../../images/Vision.jpg";
-import image3 from "../../images/Valores.jpg";
+import image1 from "../../assets/mision.jpg";
+import image2 from "../../assets/vision.jpg";
+import image3 from "../../assets/valores.jpg";
 import "./CompanyElementsListContainer.scss";
 
 const ElementsList = [

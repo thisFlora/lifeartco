@@ -23,7 +23,7 @@ const CarouselItem = ({ team }) => {
                          </div>
                          <div className="card-social">
                               <NavLink to="/" className="social-link">    
-                                   <img src={logoLi} alt="Logo Facebook" className="logo"></img>
+                                   <img src={logoLi} alt="Logo LinkedIn" className="logo"></img>
                               </NavLink>
                               <NavLink to="/" className="social-link">   
                                    <img src={logoTw} alt="Logo Twitter" className="logo"></img>
