@@ -1,6 +1,6 @@
 import  { React, useEffect, useState }from "react";
 import CarouselDetail from './CarouselDetail.js';
-import image1 from "../../assets/lucho.jpeg";
+import image1 from "../../assets/luciano.jpeg";
 import image2 from "../../assets/octavio.jpeg";
 import image3 from "../../assets/sabrina.jpeg";
 
@@ -8,9 +8,9 @@ const TeamList = [
      {
           id: 1,
           img: image1,
-          name:'Luciano',
+          name:'Luciano Smidt',
           job: 'Co-Founder',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+          description: 'Coaching, Innovación e Ingeniería.',
           linkedIn: 'https://www.linkedin.com/in/luciano-smidt-langer/',
           twitter: 'https://www.twitter.com/',
           instagram: 'https://www.instagram.com/'
@@ -19,9 +19,9 @@ const TeamList = [
      {
           id: 2,
           img: image2,
-          name:'Octavio',
+          name:'Octavio Miranda',
           job: 'Co-Founder',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+          description: 'Coaching, Agilidad y Eneagrama.',
           linkedIn: 'https://www.linkedin.com/in/octavio-miranda-7491a3a7/',
           twitter: 'https://www.twitter.com/',
           instagram: 'https://www.instagram.com/'
@@ -29,9 +29,9 @@ const TeamList = [
      {
           id: 3,
           img: image3,
-          name:'Sabrina',
+          name:'Sabrina Rabbat',
           job: 'Co-Founder',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+          description: 'Coaching, Mindfulness y Mentoría.',
           linkedIn: 'https://www.linkedin.com/in/sabrina-farah-rabbat-9a1785183/',
           twitter: 'https://www.twitter.com/',
           instagram: 'https://www.instagram.com/'

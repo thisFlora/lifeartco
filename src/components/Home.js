@@ -32,13 +32,16 @@ const Home = () => {
                     className="mySwiper"
                >
                     <SwiperSlide>
-                         <img className="home-img" src="http://oneteamconcepts.org/wp-content/uploads/2022/02/shutterstock_1731284125_0.jpg" alt="Snow" />
+                         <img className="home-img" src="https://raw.githubusercontent.com/thisFlora/lifeartco/main/src/img-home/1.Br%C3%BAjula.jpg" alt="Brújula" />
                     </SwiperSlide>
                     <SwiperSlide>
-                         <img className="home-img" src="https://www.aturnos.com/blog/wp-content/uploads/2018/02/action-2277292_1920.jpg" alt="Forest" />
+                         <img className="home-img" src="https://raw.githubusercontent.com/thisFlora/lifeartco/main/src/img-home/2.Plan.jpg" alt="Plan" />
                     </SwiperSlide>
                     <SwiperSlide>
-                         <img className="home-img" src="https://assets.entrepreneur.com/content/3x2/2000/20170731092357-business-businessteam-working-training.jpeg" alt="Mountains" />
+                         <img className="home-img" src="https://raw.githubusercontent.com/thisFlora/lifeartco/main/src/img-home/3.Estrategia.jpg" alt="Estrategia" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                         <img className="home-img" src="https://raw.githubusercontent.com/thisFlora/lifeartco/main/src/img-home/4.Equipo.JPG" alt="Equipo" />
                     </SwiperSlide>
                </Swiper>
           </div>

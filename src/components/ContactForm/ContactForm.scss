@@ -88,6 +88,10 @@ $form-font:'Open Sans', sans-serif;
   background-color: #ebebeb;
   overflow: hidden;
   height: 10rem;
+  max-width: 300px;
+  max-height: 200px;
+  min-height: 200px;
+  min-width: 300px;
 }
 
 .formEntry {

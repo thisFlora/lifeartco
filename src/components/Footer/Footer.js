@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
@@ -7,7 +8,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import logoLifeArtCo from "../../assets/logo-life-art-co.png"
+import logoLifeArtCo from "../../assets/logo-footer.png"
 import "./Footer.scss";
 
 const Footer = () => {
@@ -28,18 +29,18 @@ const Footer = () => {
           <div className="border1"></div>
           <div className="footer-list">
             <ul>
-              <a href="#">
+              <Link to="/">
                 <li>Inicio</li>
-              </a>
-              <a href="#">
+              </Link>
+              <Link to="/">
                 <li>Sobre Nosotros</li>
-              </a>
-              <a href="#">
+              </Link>
+              <Link to="/">
                 <li>Nuestros Servicios</li>
-              </a>
-              <a href="#">
+              </Link>
+              <Link to="/">
                 <li>Contacto</li>
-              </a>
+              </Link>
             </ul>
           </div>
         </div>
@@ -73,15 +74,15 @@ const Footer = () => {
           <h3>Redes Sociales</h3>
           <div className="border1"></div>
           <div className="social-media">
-            <a href="https://www.instagram.com/lifeart.co/?hl=es-la" target="_blank">
+            <Link to="www.instagram.com/lifeart.co/?hl=es-la">
               <FontAwesomeIcon icon={faInstagram} />
-            </a>
-            <a href="https://www.facebook.com/LifeArtCOrdoba/" target="_blank">
+            </Link>
+            <Link to="https://www.facebook.com/LifeArtCOrdoba/" target="_blank">
               <FontAwesomeIcon icon={faFacebook} />
-            </a>
-            <a href="https://www.linkedin.com/company/81328353/admin/" target="_blank">
+            </Link>
+            <Link to="https://www.linkedin.com/company/81328353/admin/" target="_blank">
               <FontAwesomeIcon icon={faLinkedin} />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

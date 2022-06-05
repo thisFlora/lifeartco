@@ -27,8 +27,8 @@ const ContactForm = () => {
   }
 
   return (
-    <div className="background">
-      <h1>¡Dejanos tu consulta!</h1>
+    <div className="background" >
+      <h1 id="contact-us">¡Dejanos tu consulta!</h1>
       <form className="form" ref={form} onSubmit={sendEmail}>
         <input
           className="name formEntry"

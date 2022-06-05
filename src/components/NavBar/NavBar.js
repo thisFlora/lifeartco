@@ -17,23 +17,23 @@ function NavBar() {
                <label htmlFor="toggler"><FontAwesomeIcon icon={faAlignJustify} /></label>
                <div className="menu">
                <ul className="list">
-                    <li>
+                    <li onClick={() => window.location.replace("/")}>
                          <NavLink to="/" className="nav-link">
                               Inicio
                          </NavLink>
                     </li>
-                    <li>
-                         <NavLink to="/" className="nav-link">
+                    <li onClick={() => window.location.replace("/#aboutus")}>
+                         <NavLink to="/#aboutus" className="nav-link">
                               Sobre Nosotros
                          </NavLink>
                     </li>
-                    <li>
-                         <NavLink to="/" className="nav-link">
+                    <li onClick={() => window.location.replace("/#services")}>
+                         <NavLink to="/services" className="nav-link">
                               Nuestros Servicios
                          </NavLink>
                     </li>
-                    <li>
-                         <NavLink to="/" className="nav-link">
+                    <li onClick={() => window.location.replace("/#contact-us")}>
+                         <NavLink to="/contactus" className="nav-link">
                               Contacto
                          </NavLink>
                     </li>

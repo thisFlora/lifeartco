@@ -8,6 +8,7 @@
 @import "./components/CompanyElements/CompanyElements.scss";
 @import "./components/ContactForm/ContactForm.scss";
 @import "./components/Footer/Footer.scss";
+@import "./_fonts.scss";
 
 * {
      margin: 0;
@@ -28,20 +29,55 @@ body,
 
 
 h1 {
-     font-family: "Cormorant Garamond", serif;
      font-size: 50px;
 }
 
 h2 {
-     font-family: "Cormorant Garamond", serif;
      font-size: 30px;
 }
 
 p {
-     font-family: "Open Sans", sans-serif;
      font-size: 15px;
 }
 
+/*Fonts*/
+.nav-link{
+     font-family: $font-ubuntu;
+}
+
+.card2 {
+     .titulo, .card-body{
+          font-family: $font-ubuntu;
+     }
+}
+
+.about-section{
+     font-family: $font-caveat;
+     p{
+          font-size: 20px;
+     }
+     button {
+          font-family: $font-caveat;
+          color: white;
+     }
+}
+.companies-title{
+     font-family: $font-ubuntu;
+}
+.background {
+     font-family: $font-caveat;
+     input {
+          font-family: $font-caveat;
+     }
+     textarea{
+          font-family: $font-caveat;
+     }
+     .submit {
+          color: white;
+     }
+}
+
+/*End section fonts*/
 
 @media screen and (max-width: 620px) {
      h1 {
@@ -54,40 +90,6 @@ p {
 
      p {
           font-size: 15px;
-     }
-
-     .menu {
-          width: 100%;
-          max-height: 0;
-          overflow: hidden;
-     }
-
-     .list {
-          flex-direction: column;
-          text-align: center;
-          padding: 20px;
-     }
-
-     .navbar {
-          padding: 20px;
-
-          label {
-               display: inline-flex;
-               align-items: center;
-               cursor: pointer;
-          }
-     }
-
-     #toggler:checked~.menu {
-          max-height: 100%;
-     }
-
-     .menu li:hover {
-          background-color: #4c5b63;
-     }
-
-     .nav-logo {
-          display: none;
      }
 }
 

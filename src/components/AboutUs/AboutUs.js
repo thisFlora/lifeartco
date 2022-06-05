@@ -6,7 +6,7 @@ import "./AboutUs.scss";
 const AboutUs = () => {
   return (
     <>
-      <div>
+      <div id={'aboutus'}>
         <div className="about-section">
           <div className="inner-container">
             <h1>Sobre Nosotros</h1>
@@ -14,9 +14,7 @@ const AboutUs = () => {
               Somos un equipo creativo e interdisciplinario que orienta sus recursos al agregado de valor desde el abordaje holístico a personas, equipos y organizaciones. Brindamos servicios de coaching y consultoría que elevan el nivel de nuestros clientes en aspectos vitales como el liderazgo, la comunicación y la inteligencia emocional, entre otros
             </p>
             <Button
-              onClick={() => {
-                alert("Me clickeaste!");
-              }}
+              onClick={() => window.location.replace("/#services")}
             >
               ¡Conocenos un poco más!
             </Button>
