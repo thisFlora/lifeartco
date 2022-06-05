@@ -28,12 +28,12 @@ function NavBar() {
                          </NavLink>
                     </li>
                     <li onClick={() => window.location.replace("/#services")}>
-                         <NavLink to="/services" className="nav-link">
+                         <NavLink to="/#services" className="nav-link">
                               Nuestros Servicios
                          </NavLink>
                     </li>
                     <li onClick={() => window.location.replace("/#contact-us")}>
-                         <NavLink to="/contactus" className="nav-link">
+                         <NavLink to="/#contact-us" className="nav-link">
                               Contacto
                          </NavLink>
                     </li>

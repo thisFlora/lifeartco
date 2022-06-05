@@ -45,9 +45,11 @@ const CompanyElementsListContainer = () => {
   }, []);
 
   return (
-    <div className="container2">
-      <div className="row2">
-        <CompanyElementsList elements={elements} />
+    <div id={'company-elements'}>
+      <div className="container2">
+        <div className="row2">
+          <CompanyElementsList elements={elements} />
+        </div>
       </div>
     </div>
   );
