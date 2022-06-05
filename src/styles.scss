@@ -37,7 +37,7 @@ h2 {
 }
 
 p {
-     font-size: 15px;
+     font-size: 20px;
 }
 
 /*Fonts*/
@@ -52,8 +52,11 @@ p {
 }
 
 .about-section{
-     font-family: $font-caveat;
+     h1 {
+          font-family: $font-caveat;
+     }
      p{
+          font-family: $font-ubuntu;
           font-size: 20px;
      }
      button {
@@ -61,18 +64,36 @@ p {
           color: white;
      }
 }
+.what-we-do-section {
+     h1 {
+          font-family: $font-caveat;
+     }
+     p {
+          font-family: $font-ubuntu;
+     }
+}
 .companies-title{
      font-family: $font-ubuntu;
+}
+.inner-container2, .inner-container3 {
+     h1 {
+          font-family: $font-caveat;
+     }
+     p {
+          font-family: $font-ubuntu;
+          text-align: justify;
+     }
 }
 .background {
      font-family: $font-caveat;
      input {
-          font-family: $font-caveat;
+          font-family: $font-ubuntu;
      }
      textarea{
-          font-family: $font-caveat;
+          font-family: $font-ubuntu;
      }
      .submit {
+          font-family: $font-ubuntu;
           color: white;
      }
 }
@@ -89,7 +110,7 @@ p {
      }
 
      p {
-          font-size: 15px;
+          font-size: 15px !important;
      }
 }
 

@@ -45,7 +45,7 @@ $text-hover-color: #cab500;
 }
 
 .footer-logo {
-  width: 200px;
+  width: 250px;
   height: 70px;
   margin: 10px;
   text-align: center;
@@ -136,9 +136,10 @@ $text-hover-color: #cab500;
     text-align: center;
 
     .footer-logo {
-      width: 100px;
-      height: 100px;
+      width: 200px;
+      height: 50px;
       margin: 0px;
+      margin-bottom: 20px;
     }
 
     h3 {

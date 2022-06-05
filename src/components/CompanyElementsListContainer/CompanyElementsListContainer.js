@@ -11,18 +11,21 @@ const ElementsList = [
     name: "Misión",
     description:
       "Acompañar e impulsar la transformación hacia modelos organizativos que generen una cultura de bienestar, innovación y desarrollo, asegurando la sostenibilidad de las organizaciones.",
+    className: "inner-container2",
   },
   {
     img: image2,
     name: "Visión",
     description:
       "Ser elegidos, reconocidos y compartidos gracias a nuestro modelo de consultoría empático, transformador y efectivo.",
+    className: "inner-container3",
   },
   {
     img: image3,
     name: "Valores",
     description:
       "Apredizaje, Transformación y Armonía",
+    className: "inner-container2",
   },
 ];
 

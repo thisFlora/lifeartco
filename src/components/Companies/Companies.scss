@@ -3,6 +3,7 @@
      flex-wrap:nowrap;
      justify-content: center;
      text-align: center;
+     margin-top: 50px;
      .companies-title {
           font-size: 30px;
           color: rgb(202, 181, 0);
@@ -19,5 +20,14 @@
                height: 120px; 
           }
      }
-
 }
+
+@media screen and (max-width: 620px) {
+     .companies-row {
+          padding-left: 45px;
+     }
+     .companies-title {
+          margin-left: -50px;
+     }
+}
+

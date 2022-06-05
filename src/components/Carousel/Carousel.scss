@@ -249,6 +249,7 @@
           background-color: rgba(255, 255, 0, 0);
           .card-image {
                z-index: -2;
+               margin-right: -40px;
           }
           .circle{
                display: none;
@@ -271,7 +272,7 @@
                .card-social{
                     position: sticky;
                     top: 200px;
-                    margin-left: -185px;
+                    margin-left: -165px;
                     z-index: 2;
                }
                
